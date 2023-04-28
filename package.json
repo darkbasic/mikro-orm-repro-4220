@@ -1,0 +1,16 @@
+{
+  "name": "mikro-orm-repro-4220",
+  "packageManager": "yarn@3.5.0",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@mikro-orm/core": "^6.0.0-dev.64",
+    "@mikro-orm/reflection": "^6.0.0-dev.64",
+    "@mikro-orm/sqlite": "^6.0.0-dev.64"
+  }
+}
